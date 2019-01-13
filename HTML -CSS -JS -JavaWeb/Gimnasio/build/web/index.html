@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<HTML>
+    <HEAD>
+        <TITLE>Centro de Entrenamiento</TITLE>
+        <link href="estiloBienvenido.css" rel="stylesheet" type="text/css">
+    </HEAD>	
+    <BODY>
+        <FORM  action="FormularioRutina" method="get">
+            <center>
+                <h1>Gimnasio BodyProg</h1> 
+            </center>
+            <TABLE BORDER="1" align="center">
+                <tr>
+                    <td class="clase1">
+                        <center>
+                            <h4>Nombre y Apellido</h4>
+                        </center>
+                    </td>
+                    <td  class="clase2" colspan="2">
+                        <input type ="text" name="nombre" id="nombre" placeholder="Nombre" size="17" required> 
+                    </td>
+                </tr>
+                <tr>
+                    <td class="clase1">
+                        <center>
+                            <h4>Peso (kilogramos)</h4>
+                        </center>
+                    </td>
+                    <td  class="clase2" colspan="2">
+                        <input type ="text" name="peso" id="peso" placeholder="Peso" size="17" required> 
+                    </td>
+                </tr>
+                <tr>
+                    <td class="clase1">
+                        <center>
+                            <h4>Altura (centimetros)</h4>
+                        </center>
+                    </td>
+                    <td  class="clase2" colspan="2">
+                        <input type ="text" name="altura" id="altura" placeholder="Altura" size="17" required> 
+                    </td>
+                </tr>
+                <tr>
+                    <td class="clase1">
+                        <center>
+                            <h4>Seleccione las rutinas que quiere seguir</h4>
+                        </center>
+                    </td>
+                    <td class="clase2">
+                        <select name="tipoRutina">
+                            <option value="Adelgazamiento">Adelgazamiento</option>
+                            <option value="Tonificacion">Tonificacion</option>
+                            <option value="Saludable">Saludable</option>  <!--Cambio (Abierto/Cerrado)-->
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="clase1">
+                        <center>
+                            <h4>Seleccione la disponibilidad semanal de dias</h4>
+                        </center>
+                    </td>
+                    <td class="clase2">
+                        <select name="cantidadDias">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option> 
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="clase2" >
+                        <center>
+                            <input class="boton" type="submit" value ="Registrar">
+                        </center>
+                    </td>
+                </tr> 
+            </TABLE>
+        </form>
+    </BODY>
+</HTML> 
+
+

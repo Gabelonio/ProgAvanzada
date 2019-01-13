@@ -1,0 +1,12 @@
+body{
+	background-color: #dbd9d9;
+}
+tr{
+	background-color: white;
+}
+table{
+	border-width:3px;
+	border-style: groove;
+	border-color: black;
+	background-color: #a80000;
+}

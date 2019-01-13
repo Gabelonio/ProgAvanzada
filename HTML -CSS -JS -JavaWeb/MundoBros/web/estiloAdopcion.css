@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    width: 100px;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    background-color:#ffdfdf;
+}
+
+.clase1{
+    text-align: right;
+    background-color:#ff6666;
+}
+
+.clase2{
+    text-align: center;
+    background-color:#ff9999;
+}
+
+body{
+    background-color:#e3e3e3;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
