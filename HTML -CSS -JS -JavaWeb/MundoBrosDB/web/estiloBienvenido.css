@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+    width: 460px;
+    padding:10%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+.clase1{
+    background-color: #99ccff;
+}
+
+.clase2{
+    background-color:#0099cc ;
+}
+
+
+
+.boton{
+    border: none;
+    color: #008CBA;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer; 
+    font-family: "Times New Roman", Times, serif;
+}
+.boton {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.boton:hover {background-color: #008CBA;
+color: white;}
+
+body{
+    background-color:#e3e3e3;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
