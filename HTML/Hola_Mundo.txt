@@ -1,8 +1,0 @@
-<HTML>
-<HEAD>
-<TITLE>Pagina de Hola Mundo</TITLE>
-</HEAD>
-<BODY>
-<P>Hola Mundo</P>
-</BODY>
-</HTML> 
